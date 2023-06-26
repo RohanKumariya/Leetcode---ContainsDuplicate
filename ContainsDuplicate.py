@@ -22,5 +22,5 @@ class Solution:
 		#If the value is distinct and not present in the list. We add the number to the hashset
 		hashset.add(i)
 
-	#If all values are unique we return False
+	#If all values are unique we return False.
 	return False
