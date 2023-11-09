@@ -18,7 +18,7 @@ Output: ["a","b","c"] '''
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         #Intitalize hashmap and map all the numbers to the given alphabets 
-        hashmap = {'2':'abc', '3':'def', 4:'ghi', '5':'jkl', '6':'mno', '7': 'pqrs', '8':'tuv', '9':'wxyz'}
+        hashmap = {'2':'abc', '3':'def', '4':'ghi', '5':'jkl', '6':'mno', '7': 'pqrs', '8':'tuv', '9':'wxyz'}
         #Intitialize the result combinations
         combinations = [""]
         #If digits string is empty return empty string
